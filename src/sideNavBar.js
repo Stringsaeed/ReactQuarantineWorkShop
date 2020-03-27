@@ -7,12 +7,21 @@ const SideNavBar = ({ history, location }) => {
     <Navigation
       items={[
         {
-          title: "Home",
+          title: "Form",
           itemId: "/",
           pathname: "/",
         },
+        {
+          title: "Global State",
+          itemId: "/global_state",
+          pathname: "/",
+        },
+        {
+          title: "Async Calls",
+          itemId: "/async",
+          pathname: "/async",
+        },
       ]}
-      style={{flex: 1}}
       activeItemId={location.pathname}
       onChange={({ event, item }) => {
         // prevent page reload

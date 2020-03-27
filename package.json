@@ -7,6 +7,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "baseui": "^9.65.2",
+    "formik": "^2.1.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
@@ -14,7 +15,8 @@
     "react-scripts": "3.4.1",
     "redux": "^4.0.5",
     "styletron-engine-atomic": "^1.4.6",
-    "styletron-react": "^5.2.7"
+    "styletron-react": "^5.2.7",
+    "yup": "^0.28.3"
   },
   "scripts": {
     "start": "react-scripts start",
